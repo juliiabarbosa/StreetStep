@@ -1,0 +1,200 @@
+h1{
+    color: #5a1a99;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(img/fundo_roxo.png);
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    max-width: 100%;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+}
+
+.purple{
+    background-color: #5a1a99;
+    width: 50%;
+    color:white;
+}
+
+.purple:hover{
+    background-color: #7642ab;
+    color: white;
+}
+
+
+#social-container {
+    margin: 20px auto;
+}
+
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #5a1a99;
+    transition: .3s;
+}
+
+#social-container i:hover {
+    color: #7642ab;
+}
+
+.form-check-input:checked{
+    background-color: #5a1a99;
+    border: none;
+}
+
+/* .social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #5a1a99;
+    transition: .3s;
+}
+
+.social-icons i:hover {
+    color: black;
+} */
+
+
+/* h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5a1a99;
+}
+
+.container{
+    background-color: white;
+    max-width: 900px;
+    height: 100vh;
+    padding: 20px;
+}
+
+body{
+    background-image: url(img/fundo_roxo.png);
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.purple{
+    background-color: #5a1a99;
+    color: white;
+    width: 575px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.purple:hover{
+    background-color: #7642ab;
+    color: white;
+    border-color: #5a1a99;
+}
+
+#social-container {
+    margin: 20px auto;
+}
+
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #5a1a99;
+    transition: .3s;
+}
+
+#social-container i:hover {
+    color: #7642ab;
+}
+
+.form-check-input:checked{
+    background-color: #5a1a99;
+    border: none;
+} */
+/* 
+@media only screen and (max-height: 575.98px){
+    .main{
+        display: grid;
+        height: auto;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .form-container {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .social-icons {
+        margin: 20px auto;
+    }
+}
+
